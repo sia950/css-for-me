@@ -7,6 +7,7 @@
 
 body {
     font-family: "Inter", sans-serif;
+    color: #303030;
 }
 
 header {
@@ -78,7 +79,7 @@ select {
 .frameworks-list {
     /* Стили для маркированного списка во второй секции */
     list-style-image: url(./assets/solar_map-arrow-up-bold.svg);
-    padding-left: 20px;
+    padding: 0px 20px;
     font-weight: 400;
     font-size: 16px;
     color: #303030;
@@ -86,7 +87,7 @@ select {
 
 .books-list {
     /* Стили для нумерованного списка во второй секции */
-    padding-left: 20px;
+    padding: 0px 20px; 
     font-weight: 400;
     font-size: 16px;
     color: #303030;
@@ -105,6 +106,7 @@ select {
     padding: 8px 0px 8px 12px;
     border: 1px solid #303030;
     border-radius: 5px;
+    font-size: 16px;
 
 }
 
@@ -115,6 +117,7 @@ select {
     width: 125px;
     padding: 10px 28px;
     background-color: #2965F1;
+    color: #FFFFFF;
 }
 
 .line {
@@ -125,14 +128,14 @@ select {
 table {
     /* Стили для таблицы */
     border-collapse: collapse;
-
+    font-size: 14px;
 
 }
 
 th, td {
     /* Стили для ячеек таблицы */
     border: 1px solid #95A1BB;
-    padding: 12px 13px 11px 15px;
+    padding: 12px 15px;
     color: #303030;
 }
 
